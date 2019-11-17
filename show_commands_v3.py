@@ -1,9 +1,10 @@
-from netmiko import ConnectHandler
+
 import yaml
 import argparse
-from getpass import getpass
 import pprint
 import threading
+from netmiko import ConnectHandler
+from getpass import getpass
 
 class MyThread(threading.Thread):
   def __init__(self,device,commands):
@@ -16,7 +17,7 @@ class MyThread(threading.Thread):
     activete = ConnectHandler(**device)
     print("{}: Connect!".format(self.device['name']))
 
-      #コマンド実行
+    #コマンド実行
     with open('{}.log'.format(self.device['name']),mode='w') as f:
       f.write("{}: Collecting\n".format(self.device['name']))
       for command in self.commands[self.device['device_type']]['commands']:
