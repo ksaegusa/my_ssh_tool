@@ -1,0 +1,43 @@
+#testbed.file
+#  Example
+#  --- 
+#  - name: "Hostname"
+#    ip: "DeviceIP"
+#    device_type: "cisco_ios" or "cisco_nxos" or "cisco_iosxr"
+
+---
+- name: "Hogehoge0" 
+  ip: "192.168.0.1"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge1" 
+  ip: "192.168.0.2"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge2" 
+  ip: "192.168.0.3"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge3" 
+  ip: "192.168.0.4"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge4" 
+  ip: "192.168.0.5"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge5" 
+  ip: "192.168.0.6"
+  device_type: "cisco_nxos"  
+
+- name: "Hogehoge6" 
+  ip: "192.168.0.7"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge7" 
+  ip: "192.168.0.8"
+  device_type: "cisco_nxos"
+
+- name: "Hogehoge8" 
+  ip: "192.168.0.9"
+  device_type: "cisco_nxos"

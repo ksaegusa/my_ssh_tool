@@ -1,0 +1,34 @@
+#testbed.file
+#  Example
+#  --- 
+#  device_type:
+#    commads:
+#      - "show clock"
+#      - ... 
+
+---
+cisco_nxos:
+  commands:
+    - "show clock"
+    - "show version"
+    #- "show processes cpu"
+    #- "show processes memory"
+    - "show interface status"
+    - "show interface counters errors"
+    - "show port-channel summary"
+    - "show vpc"
+    - "show cdp neighbor"
+    - "show lldp neighbor"
+    - "show interface transceiver"
+    #- "show ip ospf neighbors vrf all"
+    #- "show ip ospf route vrf all"
+    #- "show ip ospf database"
+    #- "show bgp vpnv4 unicast summary vrf all"
+    #- "show bgp vpnv4 unicast vrf all"
+    #- "show ip route vrf all"
+    #- "show ip route summary vrf all"
+    #- "show endpoint vrf all"
+    #- "show ntp peer-status"
+    #- "cat /var/log/external/messages"
+
+
